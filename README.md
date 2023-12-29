@@ -1,1 +1,0 @@
-# Path-Tracking-and-Object-Removal
