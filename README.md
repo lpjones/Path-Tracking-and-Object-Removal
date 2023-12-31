@@ -1,5 +1,43 @@
 Completed by ryuliou and lpjones
 # EEC174 AY Project A2: Path Tracking & Object Removal
+# How to use
+The two executable files are yolo_path_tracker.py and yolo_remover.py
+
+yolo_path_tracker.py:
+
+Not currently executable because tracker.py file is not pushed correctly. The input file is input.webm and the output file is output.mp4.
+
+yolo_path_tracker.py takes the video and tracks people in the video across different frames maintaining the same ID per person along with a trail behind them to see how they have traveled based on their centroid.
+
+Command to execute when tracker.py is complete:
+```console
+python3 yolo_path_tracker.py
+```
+Libraries used: \
+opencv2 \
+numpy \
+pandas \
+time
+
+yolo_remover.py:
+
+Takes in class to remove, size of chunk to replace class with, and images to modify
+
+Each image finds the bounding box for the class given and copies the given chunk size to the right of the bounding box and copies it over the bounding box removing the original pixels within the bounding box.
+
+Command to execute yolo_remover.py using class of person, chunk size of 10 and modifying all images in imgs/:
+```console
+python3 yolo_remover.py person 10 imgs/
+```
+Libraries used: \
+os \
+opencv2 \
+numpy \
+matplotlib \
+argparse \
+pandas \
+time
+
 # Instructions (Do not clone this repo!)
 
 Due Date: December 4, 2023
