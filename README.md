@@ -1,6 +1,8 @@
 Completed by ryuliou and lpjones
 # EEC174 AY Project A2: Path Tracking & Object Removal
 # How to use
+Download yolov3.weights file at https://pjreddie.com/media/files/yolov3.weights and move the file to the yolo_files/ folder
+
 The two executable files are yolo_path_tracker.py and yolo_remover.py
 
 yolo_path_tracker.py:
