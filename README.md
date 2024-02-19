@@ -2,6 +2,7 @@ Completed by lpjones and ryuliou
 # Path Tracking & Object Removal
 # Goals
 Using video input track people's positions as they move. Then output a video displaying the path people have traveled.
+
 ![](out_imgs/Path-find.gif)
 
 # How to use
