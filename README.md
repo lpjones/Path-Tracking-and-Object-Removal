@@ -6,7 +6,9 @@ Using video input, track people's positions as they move. Then output a video di
 ![](out_imgs/Path-find.gif)
 
 # How to use
-Download yolov3.weights file at https://pjreddie.com/media/files/yolov3.weights and move the file to the yolo_files/ folder
+1. Clone the repo
+
+2. Download yolov3.weights file at https://pjreddie.com/media/files/yolov3.weights and move the file to the yolo_files/ folder
 
 The two executable files are yolo_path_tracker.py and yolo_remover.py
 
@@ -16,7 +18,7 @@ The input file is input.webm and the output file is output.mp4.
 
 yolo_path_tracker.py takes the video and tracks people in the video across different frames maintaining the same ID per person along with a trail behind them to see how they have traveled based on their centroid.
 
-Command to execute:
+3. Command to execute:
 ```console
 python3 yolo_path_tracker.py
 ```
