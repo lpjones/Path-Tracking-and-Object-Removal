@@ -1,7 +1,8 @@
 Completed by lpjones and ryuliou
-# Goals
-
 # Path Tracking & Object Removal
+# Goals
+Take in a video of people and track their position as they move. Then output a video displaying the path people have traveled.
+
 # How to use
 Download yolov3.weights file at https://pjreddie.com/media/files/yolov3.weights and move the file to the yolo_files/ folder
 
