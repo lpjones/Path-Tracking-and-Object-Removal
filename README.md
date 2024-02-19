@@ -1,4 +1,4 @@
-Completed by ryuliou and lpjones
+Completed by lpjones and ryuliou
 # Path Tracking & Object Removal
 # How to use
 Download yolov3.weights file at https://pjreddie.com/media/files/yolov3.weights and move the file to the yolo_files/ folder
