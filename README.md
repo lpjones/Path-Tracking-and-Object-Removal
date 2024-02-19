@@ -9,11 +9,11 @@ The two executable files are yolo_path_tracker.py and yolo_remover.py
 
 yolo_path_tracker.py:
 
-Not currently executable because tracker.py file is not pushed correctly. The input file is input.webm and the output file is output.mp4.
+The input file is input.webm and the output file is output.mp4.
 
 yolo_path_tracker.py takes the video and tracks people in the video across different frames maintaining the same ID per person along with a trail behind them to see how they have traveled based on their centroid.
 
-Command to execute when tracker.py is complete:
+Command to execute:
 ```console
 python3 yolo_path_tracker.py
 ```
